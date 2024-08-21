@@ -1,3 +1,46 @@
 .checked{
     color: orange;
 }
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    gap: 1%;
+
+}
+#img{
+    width: 30%;
+    height: 100px;
+}
+#imgsrc{
+    object-fit: fill;
+}
+#info
+{
+    width: 70%;
+    height: 100px;
+}
+#discount-price{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+button {
+    color: black;
+    background-color: rgb(244, 227, 37);
+    margin-top: 3px;
+    border-radius: 30px;
+    border: 2px solid rgb(244, 227, 37);
+    padding: 10px;
+    font-size: 1.2rem;
+}
+#logo-prime{
+    width: 10%;
+    height: 20%;
+    object-fit: fill;
+}

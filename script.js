@@ -9,7 +9,7 @@ var item1 = {
     primeLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS__5Y89sq5S18gQFdLWCrWD6fsmUr08j2_Bg&s",
     deliveryDate: "19 August,2024"
 };
-document.getElementById("img").src = item1.imgSrc;
+document.getElementById("imgsrc").src = item1.imgSrc;
 document.getElementById("name").innerHTML = item1.itemName;
 document.getElementById("people-review").innerHTML = item1.itemBoughtInPastMonth;
 document.getElementById("discount-price").innerHTML = item1.discountPrice;
